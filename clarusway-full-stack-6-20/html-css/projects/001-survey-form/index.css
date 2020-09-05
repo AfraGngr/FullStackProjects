@@ -74,12 +74,18 @@ color: white;
     border: none;
     background-color: red;
     color: white;
-    cursor: pointer;
+    /* cursor: pointer; */
 }
 
 #submit:hover {
     background: white;
     color: red;
+    cursor: pointer;
+}
+
+#dropdown {
+    box-sizing: content-box;
+    resize: none;
 }
 
 
